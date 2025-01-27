@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#visualization-container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#algorithm-select, #speed-range, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.bar {
+    width: 20px;
+    margin: 0 2px;
+    background-color: #007BFF;
+    transition: height 0.2s ease, background-color 0.2s ease;
+}
+
+.bar.comparing {
+    background-color: #FFC107;
+}
+
+.bar.sorted {
+    background-color: #28A745;
+}
+
+#commentary {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
